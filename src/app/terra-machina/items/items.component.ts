@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import reference from '../reference.json';
 
 @Component({
-  moduleId: module.id,
+
   selector: 'app-items',
   templateUrl: './items.component.html',
   styleUrls: ['./items.component.scss']

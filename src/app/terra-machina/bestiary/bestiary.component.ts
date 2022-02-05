@@ -2,10 +2,10 @@ import { Component, OnInit } from '@angular/core';
 import reference from '../reference.json';
 
 @Component({
-  moduleId: module.id,
-  selector: 'app-Bestiary',
-  templateUrl: './Bestiary.component.html',
-  styleUrls: ['./Bestiary.component.scss']
+
+  selector: 'app-bestiary',
+  templateUrl: './bestiary.component.html',
+  styleUrls: ['./bestiary.component.scss']
 })
 export class BestiaryComponent implements OnInit {
   public bestiary: any[] = [];
