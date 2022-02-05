@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import reference from '../reference.json';
 
 @Component({
+  moduleId: module.id,
   selector: 'app-sample-custom-moves',
   templateUrl: './sample-custom-moves.component.html',
   styleUrls: ['./sample-custom-moves.component.scss']

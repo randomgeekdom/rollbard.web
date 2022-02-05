@@ -3,6 +3,7 @@ import { NPC, Gender } from '@randomgeekdom/rollbard';
 import { RollbardService } from '../../rollbard.service';
 
 @Component({
+  moduleId: module.id,
   selector: 'app-npc-generator',
   templateUrl: './npc-generator.component.html',
   styleUrls: ['./npc-generator.component.scss']
