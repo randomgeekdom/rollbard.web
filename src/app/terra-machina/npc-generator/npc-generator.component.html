@@ -1,0 +1,36 @@
+<!-- Content Header (Page header) -->
+<section class="content-header">
+  <div class="container-fluid">
+      <div class="row mb-2">
+          <div class="col-sm-6">
+              <h1>NPC Generate</h1>
+          </div>
+
+      </div>
+  </div>
+  <!-- /.container-fluid -->
+</section>
+
+<!-- Main content -->
+<section class="content">
+  <!-- Default box -->
+  <div class="container-fluid">
+      <div class="card">
+          <div class="card-header">
+              <h3 class="card-title">
+                <button class="btn btn-primary" (click)="GenerateNPC()">Generate New NPC</button>
+              </h3>
+          </div>
+          <div class="card-body" *ngIf="!!NPC">
+            <div>Name: {{NPC?.Name}}</div>
+            <div>Gender: {{GenderText}}</div>
+            <div>Hometown: {{NPC?.Hometown}}</div>
+          </div>
+          <!-- /.card-body -->
+
+          <!-- /.card-footer-->
+      </div>
+  </div>
+  <!-- /.card -->
+</section>
+<!-- /.content -->

@@ -14,9 +14,19 @@
         <!-- Step 4: Close the menu when a link is clicked. -->
         <a [routerLink]="'.'" class="nav-link">Home</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" [routerLink]="'terra-machina'" (click)="isMenuCollapsed = true">Terra Machina</a>
+
+      <li class="nav-item dropdown" ngbDropdown>
+        <a class="nav-link dropdown-toggle" id="id01" ngbDropdownToggle>Terra Machina</a>
+        <div class="dropdown-menu" aria-labelledby="id01" ngbDropdownMenu>
+          <a class="dropdown-item" [routerLink]="'terra-machina'">About</a>
+          <a class="dropdown-item" [routerLink]="'terra-machina/resources'">Resources</a>
+          <a class="dropdown-item" [routerLink]="'terra-machina/bestiary'">Bestiary</a>
+          <a class="dropdown-item" [routerLink]="'terra-machina/items'">Items</a>
+          <a class="dropdown-item" [routerLink]="'terra-machina/sample-custom-moves'">Sample Custom Moves</a>
+          <a class="dropdown-item" [routerLink]="'terra-machina/npc-generator'">NPC Generator</a>
+        </div>
       </li>
+
       <li class="nav-item">
         <a class="nav-link" [routerLink]="'.'" (click)="isMenuCollapsed = true">About</a>
       </li>

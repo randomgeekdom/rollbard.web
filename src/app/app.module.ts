@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { TerraMachinaModule } from './terra-machina/terra-machina.module';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { TerraMachinaModule } from './terra-machina/terra-machina.module';
     BrowserModule,
     AppRoutingModule,
     NgbModule,
+    CommonModule,
     TerraMachinaModule
   ],
   providers: [],
