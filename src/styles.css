@@ -1,1 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+.bg-violet{
+  background-color: rgb(69, 54, 84);
+}
+.body{
+  margin: 10px;
+  padding: 10px;
+}
