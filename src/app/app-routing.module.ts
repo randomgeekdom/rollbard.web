@@ -4,14 +4,18 @@ import { LandingComponent } from './landing/landing.component';
 import { BestiaryComponent } from './terra-machina/bestiary/bestiary.component';
 import { HomeComponent } from './terra-machina/home/home.component';
 import { ItemsComponent } from './terra-machina/items/items.component';
-import { NpcGeneratorComponent } from './terra-machina/npc-generator/npc-generator.component';
 import { ResourcesComponent } from './terra-machina/resources/resources.component';
 import { SampleCustomMovesComponent } from './terra-machina/sample-custom-moves/sample-custom-moves.component';
+import { NpcGeneratorComponent } from './tools/npc-generator/npc-generator.component';
 
 const routes: Routes = [
   {
     path: '',
     component: LandingComponent,
+  },
+  {
+    path: 'npc-generator',
+    component: NpcGeneratorComponent
   },
   {
     path: 'terra-machina',
@@ -27,10 +31,6 @@ const routes: Routes = [
       {
         path: 'items',
         component: ItemsComponent,
-      },
-      {
-        path: 'npc-generator',
-        component: NpcGeneratorComponent,
       },
       {
         path: 'resources',

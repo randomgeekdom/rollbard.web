@@ -7,20 +7,19 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { TerraMachinaModule } from './terra-machina/terra-machina.module';
 import { CommonModule } from '@angular/common';
 import { LandingComponent } from './landing/landing.component';
+import { ToolsModule } from './tools/tools.module';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    LandingComponent
-  ],
+  declarations: [AppComponent, LandingComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgbModule,
     CommonModule,
-    TerraMachinaModule
+    TerraMachinaModule,
+    ToolsModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
