@@ -10,90 +10,13 @@
   <!-- /.container-fluid -->
 </div>
 
-<!-- Main content -->
-<section class="content">
-  <div class="container-fluid">
-    <div class="content-header">
-      <div class="container-fluid">
-        <div class="row mb-2">
-          <div class="col-sm-6">
-            <h2 class="m-0 text-dark">Starting Documents</h2>
-          </div>
-        </div>
-        <!-- /.row -->
-      </div>
-      <!-- /.container-fluid -->
-    </div>
 
-    <div class="row">
-      <div class="col-md-4  my-3">
-        <div class="card border-dark">
-          <div class="card-title px-3 bg-violet text-light">
-            <h2><fa-icon [icon]="faBook"></fa-icon> Terra Machina Rulebook</h2>
-          </div>
-          <div class="card-body">
-            <p>The core rulebook.</p>
-          </div>
-          <div class="card-footer">
-            <a
-              [href]="'../../../assets/Terra-Machina-Rulebook.pdf'"
-              target="_blank"
-              class="btn"
-              >Download <fa-icon [icon]="faArrowCircleDown"></fa-icon
-            ></a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4  my-3">
-        <div class="card border-dark">
-          <div class="card-title px-3 bg-violet text-light">
-            <h2>
-              <fa-icon [icon]="faAddressBook"></fa-icon>Basic Character Sheet
-            </h2>
-          </div>
-          <div class="card-body">
-            <p>Character sheet that all players use regardless of class.</p>
-          </div>
-          <div class="card-footer">
-            <a
-              [href]="'../../../assets/basic_character_sheet.pdf'"
-              target="_blank"
-              class="btn"
-              >Download <fa-icon [icon]="faArrowCircleDown"></fa-icon
-            ></a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4  my-3">
-        <div class="card border-dark">
-          <div class="card-title px-3 bg-violet text-light">
-            <h2><fa-icon [icon]="faCircle"></fa-icon> Custom Moves Sheet</h2>
-          </div>
-          <div class="card-body">
-            <p>
-              Sheet for any custom moves that the GM or scenario gives to the
-              player.
-            </p>
-          </div>
-          <div class="card-footer">
-            <a
-              [href]="'../../../assets/custom_moves_sheet.pdf'"
-              target="_blank"
-              class="btn"
-              >Download <fa-icon [icon]="faArrowCircleDown"></fa-icon
-            ></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<section class="content">
+<section class="content" *ngFor="let section of sections">
   <div class="content-header">
     <div class="container-fluid">
       <div class="row mb-2">
         <div class="col-sm-6">
-          <h2 class="m-0 text-dark">Class Sheets</h2>
+          <h2 class="m-0 text-dark">{{section.name}}</h2>
         </div>
       </div>
       <!-- /.row -->
@@ -101,19 +24,19 @@
     <!-- /.container-fluid -->
   </div>
   <div class="row">
-    <div class="col-md-6 my-3" *ngFor="let class of classes">
+    <div class="col-md-4 my-3" *ngFor="let download of section.downloads">
       <div class="card border-dark">
         <div class="card-title px-3 bg-violet text-light">
-          <h2><fa-icon [icon]="class.icon"></fa-icon> {{ class.name }}</h2>
+          <h2><fa-icon [icon]="download.icon"></fa-icon> {{ download.name }}</h2>
         </div>
         <div class="card-body">
           <p>
-            {{ class.description }}
+            {{ download.description }}
           </p>
         </div>
         <div class="card-footer">
           <a
-            [href]="'../../../assets/' + class.name + '.pdf'"
+            [href]="'../../../assets/' + (download.file ?? download.name) + '.pdf'"
             target="_blank"
             class="btn"
             >Download <fa-icon [icon]="faArrowCircleDown"></fa-icon

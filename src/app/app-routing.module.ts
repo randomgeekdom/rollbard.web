@@ -15,7 +15,7 @@ const routes: Routes = [
   },
   {
     path: 'npc-generator',
-    component: NpcGeneratorComponent
+    component: NpcGeneratorComponent,
   },
   {
     path: 'terra-machina',
