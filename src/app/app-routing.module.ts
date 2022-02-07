@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { LandingComponent } from './landing/landing.component';
 import { BestiaryComponent } from './terra-machina/bestiary/bestiary.component';
 import { HomeComponent } from './terra-machina/home/home.component';
 import { ItemsComponent } from './terra-machina/items/items.component';
@@ -9,38 +10,42 @@ import { SampleCustomMovesComponent } from './terra-machina/sample-custom-moves/
 
 const routes: Routes = [
   {
-    path:'terra-machina',
-    children:[
+    path: '',
+    component: LandingComponent,
+  },
+  {
+    path: 'terra-machina',
+    children: [
       {
         path: '',
-        component: HomeComponent
+        component: HomeComponent,
       },
       {
         path: 'bestiary',
-        component: BestiaryComponent
+        component: BestiaryComponent,
       },
       {
         path: 'items',
-        component: ItemsComponent
+        component: ItemsComponent,
       },
       {
         path: 'npc-generator',
-        component: NpcGeneratorComponent
+        component: NpcGeneratorComponent,
       },
       {
         path: 'resources',
-        component: ResourcesComponent
+        component: ResourcesComponent,
       },
       {
         path: 'sample-custom-moves',
-        component: SampleCustomMovesComponent
-      }
-    ]
-  }
+        component: SampleCustomMovesComponent,
+      },
+    ],
+  },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}

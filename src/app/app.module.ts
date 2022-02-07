@@ -6,10 +6,12 @@ import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { TerraMachinaModule } from './terra-machina/terra-machina.module';
 import { CommonModule } from '@angular/common';
+import { LandingComponent } from './landing/landing.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LandingComponent
   ],
   imports: [
     BrowserModule,
