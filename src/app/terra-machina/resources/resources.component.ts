@@ -16,6 +16,7 @@ import {
   faCircle,
   faCrosshairs,
   faFeatherAlt,
+  faPray,
 } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
@@ -99,6 +100,12 @@ export class ResourcesComponent implements OnInit {
       name: 'Advanced Classes',
       downloads: [
         {
+          name: 'Assassin',
+          icon: faBullseye,
+          description:
+            'A sharpshooter intent to kill.',
+        },
+        {
           name: 'Brute',
           icon: faGavel,
           description:
@@ -114,6 +121,11 @@ export class ResourcesComponent implements OnInit {
           name: 'Gladiator',
           icon: faFeatherAlt,
           description: 'A machine of war dedicated to a single master.',
+        },
+        {
+          name: 'Monk',
+          icon: faPray,
+          description: 'A powerful offensive class with healing capabilities.',
         },
       ],
     },
