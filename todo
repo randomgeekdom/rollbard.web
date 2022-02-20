@@ -1,7 +1,8 @@
+Change moves to use advantage
+
 Job Generator for Rollbard library
 
 Make advanced class sheets
-  Assassin (Scoundrel, Gunslinger)
   Samurai (Knight, Ninja)
   Astromancer (Protector) - Time, Space
   Druid (Protector, Sorcerex ) - Holy, Earth
@@ -44,5 +45,7 @@ Images for class sheets (when I have money)
   Protector
   Scoundrel
   Sorcerex
+
+Remove link for NPC Generator under Terra Machina
 
 Add Enemies to Bestiary

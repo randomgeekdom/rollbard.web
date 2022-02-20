@@ -1259,6 +1259,17 @@
           "Weakness": "Dark",
           "Type": "Robotic, Reptilian",
           "Attacks": "Fire Breath: 1d10+1 Fire damage.  Causes Burn."
+      },
+      {
+          "Name": "Bog Bugs",
+          "Description": "Groups of bugs that live in the swamps",
+          "HP": "11",
+          "Armor": "0",
+          "Immunity": "Water, Dark",
+          "Locations": "Swamp",
+          "Weakness": "Air",
+          "Type": "Mob, Insect",
+          "Attacks": "Scare Bite: 1d8-1 Dark damage.  Causes Scared."
       }
   ],
   "Sample_Custom_Moves": [
@@ -1343,7 +1354,7 @@
       {
           "Elementals": "Air",
           "Immunity": "11",
-          "Weaknesses": "10",
+          "Weaknesses": "11",
           "Status Effects": "Blind",
           "undefined": "5",
           "Attack Element": "Earth"
@@ -1358,7 +1369,7 @@
       },
       {
           "Elementals": "Water",
-          "Immunity": "11",
+          "Immunity": "12",
           "Weaknesses": "10",
           "Status Effects": "Mania",
           "undefined": "17",
@@ -1390,14 +1401,14 @@
       },
       {
           "Elementals": "Dark",
-          "Immunity": "11",
+          "Immunity": "12",
           "Weaknesses": "11",
           "Attack Element": "Holy",
-          "undefined": "Bleed,Blind,Mania,Scared,"
+          "undefined": "Bleed,Blind,Mania,"
       },
       {
           "Attack Element": "Dark",
-          "undefined": "1"
+          "undefined": "2"
       },
       {
           "Elementals": "Locations",
@@ -1423,7 +1434,7 @@
       },
       {
           "Elementals": "Swamp",
-          "Immunity": "14",
+          "Immunity": "15",
           "Status Effects": "Robotic",
           "undefined": "11"
       },
@@ -1449,12 +1460,12 @@
           "Elementals": "Plains",
           "Immunity": "14",
           "Status Effects": "Undead",
-          "undefined": "10"
+          "undefined": "11"
       },
       {
           "Elementals": "Desert",
           "Immunity": "15",
-          "undefined": "1"
+          "undefined": "2"
       },
       {
           "Elementals": "Tundra",
