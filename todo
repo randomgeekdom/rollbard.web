@@ -1,51 +1,12 @@
-Change moves to use advantage
+Vigilant City
 
 Job Generator for Rollbard library
 
-Make advanced class sheets
-  Samurai (Knight, Ninja)
-  Astromancer (Protector) - Time, Space
-  Druid (Protector, Sorcerex ) - Holy, Earth
-  Frostbiter (Sorcerex) - Air, Water, Ice
-  Destroyer (Sorcerex) - Dark, Fire, Lightning
-  Medic (Engineer, Protector)
-  Monk (Warrior, Protector)
-  Ninja (Monk, Scoundrel)
-
-Vigilant City addition
-
-Make PDFs editable
-  Knight
-  Warrior
-  Gunslinger
-  Gladiator
-  Sorcerex
-  Protector
-  Scoundrel
-  Engineer
-  Brute
-  Dragoon
-  Assassin (Scoundrel, Gunslinger)
-  Samurai (Knight, Ninja)
-  Astromancer (Protector) - Time, Space
-  Druid (Protector, Sorcerex ) - Holy, Earth
-  Frostbiter (Sorcerex) - Air, Water, Ice
-  Destroyer (Sorcerex) - Dark, Fire, Lightning
-  Medic (Engineer, Protector)
-  Monk (Warrior, Protector)
-  Ninja (Monk, Scoundrel)
-
 Update NPC Generator to allow for multiple NPCs
+  Then save into localstorage
 
 Remove link for NPC Generator under Terra Machina
 
-Add Enemies to Bestiary
+Remove Items, Bestiary, Sample Custom Moves from TM and site
 
-Remove Items, Bestiary, Sample Custom Moves from site
-
-Images for class sheets (MINT in green)
-  Engineer
-  Knight
-  Protector
-  Scoundrel
-  Sorcerex
+TM - todo

@@ -1,0 +1,41 @@
+Fork TM from Rollbard into its own site
+
+Make advanced class sheets
+  Samurai (Knight, Ninja)
+  Astromancer (Protector) - Time, Space
+  Druid (Protector, Sorcerex ) - Holy, Earth
+  Frostbiter (Sorcerex) - Air, Water, Ice
+  Destroyer (Sorcerex) - Dark, Fire, Lightning
+  Medic (Engineer, Protector)
+  Monk (Warrior, Protector)
+  Ninja (Monk, Scoundrel)
+
+Make PDFs editable
+  Knight
+  Warrior
+  Gunslinger
+  Gladiator
+  Sorcerex
+  Protector
+  Scoundrel
+  Engineer
+  Brute
+  Dragoon
+  Assassin (Scoundrel, Gunslinger)
+  Samurai (Knight, Ninja)
+  Astromancer (Protector) - Time, Space
+  Druid (Protector, Sorcerex ) - Holy, Earth
+  Frostbiter (Sorcerex) - Air, Water, Ice
+  Destroyer (Sorcerex) - Dark, Fire, Lightning
+  Medic (Engineer, Protector)
+  Monk (Warrior, Protector)
+  Ninja (Monk, Scoundrel)
+
+Add Enemies to Bestiary
+
+Images for class sheets (MINT in green)
+  Engineer
+  Knight
+  Protector
+  Scoundrel
+  Sorcerex
