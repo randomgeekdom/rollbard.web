@@ -1,4 +1,22 @@
-Vigilant City
+Vigilant City Publish and make pages
+
+VC - Roll20 character sheet
+
+VC - character sheet page (with localstorage persistence)
+  Allow download, upload, and print
+
+VC - Separate GM guide
+  sample power sets
+  sample weaknesses
+  sample power set skills (including difficulty)
+  sample difficulty guide
+  sample enemies
+
+VC - Scenario
+  Pyronica (building on fire) - Tech
+  Sample supernatural
+  Sample alien
+  Sample evolutionary
 
 Job Generator for Rollbard library
 
@@ -10,3 +28,5 @@ Remove link for NPC Generator under Terra Machina
 Remove Items, Bestiary, Sample Custom Moves from TM and site
 
 TM - todo
+
+Add Github to site

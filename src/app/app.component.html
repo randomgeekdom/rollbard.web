@@ -1,6 +1,6 @@
 <!-- your navs bound to current route fragments -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-violet mb-3">
-  <a class="navbar-brand" [routerLink]="'.'">Rollbard</a>
+  <a class="navbar-brand" routerLink=".">Rollbard</a>
 
   <!-- Step 3: Toggle the value of the property when the toggler button is clicked. -->
   <button
@@ -20,11 +20,11 @@
           >Terra Machina</a
         >
         <div class="dropdown-menu" aria-labelledby="id01" ngbDropdownMenu>
-          <a class="dropdown-item" [routerLink]="'terra-machina'">About</a>
-          <a class="dropdown-item" [routerLink]="'terra-machina/resources'"
+          <a class="dropdown-item" routerLink="terra-machina">About</a>
+          <a class="dropdown-item" routerLink="terra-machina/resources"
             >Resources</a
           >
-          <a class="dropdown-item" [routerLink]="'terra-machina/npc-generator'"
+          <a class="dropdown-item" routerLink="terra-machina/npc-generator"
             >NPC Generator</a
           >
         </div>
@@ -35,8 +35,8 @@
           >Vigilant City</a
         >
         <div class="dropdown-menu" aria-labelledby="id02" ngbDropdownMenu>
-          <a class="dropdown-item" [routerLink]="'vigilant-city'">About</a>
-          <a class="dropdown-item" [routerLink]="'vigilant-city/printables'">Printables</a>
+          <a class="dropdown-item" routerLink="vigilant-city">About</a>
+          <a class="dropdown-item" routerLink="vigilant-city/printables">Printables</a>
         </div>
       </li>
     </ul>
