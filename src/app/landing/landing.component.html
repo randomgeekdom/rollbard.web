@@ -1,56 +1,59 @@
 <div class="row justify-content-center">
-  <div class="col-md-3">
+  <h3 class="card-title">Games</h3></div>
+
+
+<div class="row justify-content-center">
+  <div class="col-md-4">
+
     <div class="card">
       <div class="card-header">
-        <h3 class="card-title">Games</h3>
-      </div>
-      <div class="card-body">
         <a routerLink="terra-machina/resources">
           <img
             src="../../assets/tm-logo.png"
             class="card-img-top"
             alt="Terra Machina"
-        /></a>
-        <div class="card-body">
-          <p class="card-text">
-            <i>
-              Over the course of millenia, what began as a world of fantasy and
-              myth advances beyond its ages of primitivity, agriculture,
-              conquest, exploration, and industry. It is now an age of
-              technology. Life transpires on the spectrum of science and
-              sorcery. It is a world where the gods of the machine coexist with
-              the gods of the natural world.</i
-            >
-          </p>
-        </div>
-        <p class="text-center">-</p>
-        <a routerLink="vigilant-city/printables">
+        /></a></div>
+
+      <div class="card-body">
+        <p class="card-text">
+          <i>
+            Over the course of millenia, what began as a world of fantasy and
+            myth advances beyond its ages of primitivity, agriculture,
+            conquest, exploration, and industry. It is now an age of
+            technology. Life transpires on the spectrum of science and
+            sorcery. It is a world where the gods of the machine coexist with
+            the gods of the natural world.</i
+          >
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-4">
+
+    <div class="card">
+      <div class="card-header">
+        <a routerLink="vigilant-city">
           <img
             src="../../assets/vc-logo.png"
             class="card-img-top"
             alt="Vigilant City"
-        /></a>
-        <div class="card-body">
-          <p class="card-text">
-            <i>
-              In a city where the institutions have failed the average person,
-              criminal organizations have risen, and corruption runs deep. As an
-              extraordinary individual, will you become a part of the rot that
-              plagues the city or will you stop it?
-            </i>
-          </p>
-        </div>
+        /></a></div>
+
+      <div class="card-body">
+        <p class="card-text">
+          <i>
+            In a city where the institutions have failed the average person,
+            criminal organizations have risen, and corruption runs deep. As an
+            extraordinary individual, will you become a part of the rot that
+            plagues the city or will you stop it?
+          </i>
+        </p>
       </div>
     </div>
   </div>
-  <div class="col-md-6">
-    <div class="card">
-      <div class="card-header">
-        <h3 class="card-title">Updates</h3>
-      </div>
-      <div class="card-body" *ngFor="let i of getUpdates()">
-        <div>{{ i }}</div>
-      </div>
-    </div>
-  </div>
+
+
+
+
 </div>

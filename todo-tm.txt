@@ -1,5 +1,3 @@
-Fork TM from Rollbard into its own site
-
 Make advanced class sheets
   Samurai (Knight, Ninja)
   Astromancer (Protector) - Time, Space

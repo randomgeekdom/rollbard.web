@@ -11,6 +11,7 @@ VC - Separate GM guide
   sample power set skills (including difficulty)
   sample difficulty guide
   sample enemies
+  examples for how to use different basic moves
 
 VC - Scenario
   Pyronica (building on fire) - Tech
@@ -27,6 +28,8 @@ Remove link for NPC Generator under Terra Machina
 
 Remove Items, Bestiary, Sample Custom Moves from TM and site
 
-TM - todo
-
 Add Github to site
+
+Rollbard library - Update name generator to rely less on animals and possibly include custom generator
+
+TM - todo
