@@ -1,0 +1,104 @@
+<div class="content mx-5 px-5">
+  <h3>Vigilant City Character Sheet</h3>
+  <div class="form-vertical card px-5 ma-5">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="form-group">
+          <label class="control-label" for="alias">Alias</label>
+          <div class="col-sm-10">
+            <input
+              type="text"
+              class="form-control"
+              id="alias"
+              [(ngModel)]="character.Alias"
+              (change)="SaveToLocal()"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="form-group">
+          <label class="control-label" for="realName"
+            >Real Name</label
+          >
+          <div class="col-sm-10">
+            <input
+              type="text"
+              class="form-control"
+              id="realName"
+              [(ngModel)]="character.RealName"
+              (change)="SaveToLocal()"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h6 class="control-label">Stats</h6>
+    <div class="row col-sm-10">
+      <div class="col-md-3">
+        <label class="control-label" for="grace">Grace</label>
+        <select
+        class="form-control"
+          id="grace"
+          [(ngModel)]="character.Grace"
+          (change)="SaveToLocal()"
+        >
+          <option *ngFor="let option of statOptions">{{ option }}</option>
+        </select>
+      </div>
+      <div class="col-md-3">
+        <label class="control-label" for="intellect">Intellect</label>
+        <select
+          class="form-control"
+          id="intellect"
+          [(ngModel)]="character.Intellect"
+          (change)="SaveToLocal()"
+        >
+          <option *ngFor="let option of statOptions">{{ option }}</option>
+        </select>
+      </div>
+      <div class="col-md-3">
+        <label class="control-label" for="might">Might</label>
+        <select
+          class="form-control"
+          id="might"
+          [(ngModel)]="character.Might"
+          (change)="SaveToLocal()"
+        >
+          <option *ngFor="let option of statOptions">{{ option }}</option>
+        </select>
+      </div>
+      <div class="col-md-3">
+        <label class="control-label" for="spirit">Spirit</label>
+        <select
+          class="form-control"
+          id="spirit"
+          [(ngModel)]="character.Spirit"
+          (change)="SaveToLocal()"
+        >
+          <option *ngFor="let option of statOptions">{{ option }}</option>
+        </select>
+      </div>
+    </div>
+<div *ngFor="let statMove of character.BasicMoves">
+  <br/>
+    <h6 class="control-label">{{statMove.stat}} Basic Moves</h6>
+    <div class="row  col-sm-10">
+      <div class="col-md-4" *ngFor="let move of statMove.moves">
+
+        <label class="control-label" [for]="move.name">{{move.name}}</label>
+        <input
+          type="number"
+          class="form-control"
+          [id]="move.name"
+          [(ngModel)]="move.value"
+          (change)="SaveToLocal()"
+          [title]="move.description"
+        />
+      </div>
+    </div>
+
+  </div>
+  </div>
+</div>

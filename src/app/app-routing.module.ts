@@ -5,6 +5,7 @@ import { HomeComponent } from './terra-machina/home/home.component';
 import { ResourcesComponent } from './terra-machina/resources/resources.component';
 import { NpcGeneratorComponent } from './terra-machina/npc-generator/npc-generator.component';
 import { AboutComponent } from './vigilant-city/about/about.component';
+import { CharacterSheetComponent } from './vigilant-city/character-sheet/character-sheet.component';
 
 const routes: Routes = [
   {
@@ -17,6 +18,10 @@ const routes: Routes = [
       {
         path: '',
         component: AboutComponent,
+      },
+      {
+        path: 'character-sheet',
+        component: CharacterSheetComponent,
       }
     ],
   },
