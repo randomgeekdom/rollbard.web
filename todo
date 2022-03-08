@@ -1,13 +1,10 @@
-VC - Roll20 character sheet
-
 VC - character sheet page (with localstorage persistence)
   Finish Power Origin, POwerSets, Weaknesses, Alignment, Origin and Notes
     Validate button with rules
     Allow download, upload, and print
 
-VC - Add to Rulebook
-  Sample power sets
-    Sample power set skills
+VC - Rulebook - Reference Guide
+  Sample power set skills
   Sample weaknesses
   examples for how to use different basic moves
 
