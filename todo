@@ -1,3 +1,11 @@
+TOOLS
+  SEPARATE NPC GENERATOR FROM TM
+  Add Vessel Generator
+    Vessel Name
+    Vessel Type
+  Add RegionGenerator
+    Use OC as a template
+
 VC - character sheet page (with localstorage persistence)
   Finish Power Origin, POwerSets, Weaknesses, Alignment, Origin and Notes
     Validate button with rules
