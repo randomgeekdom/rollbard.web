@@ -1,0 +1,20 @@
+VC - character sheet page (with localstorage persistence)
+  Finish Power Origin, POwerSets, Weaknesses, Alignment, Origin and Notes
+    Validate button with rules
+    Allow download, upload, and print
+
+VC - Rulebook - Reference Guide
+  Sample power set skills
+  Sample weaknesses
+  examples for how to use different basic moves
+
+VC - Separate GM guide
+  Move Enemy guide from Rulebook to GM Guide
+  sample difficulty guide
+  sample enemies
+
+VC - Scenario
+  Pyronica (building on fire) - Tech
+  Sample supernatural
+  Sample alien
+  Sample evolutionary
