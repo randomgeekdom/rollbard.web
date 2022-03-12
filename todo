@@ -1,12 +1,12 @@
 TOOLS
-  SEPARATE NPC GENERATOR FROM TM
   Add Vessel Generator
     Vessel Name
     Vessel Type
   Add RegionGenerator
     Use OC as a template
-
-Job Generator for Rollbard library
+  Backstory Generator
+  Plot Generator (Protagonist, Antagonist, inciting incident, )
+  Monster Generator
 
 Update NPC Generator to allow for multiple NPCs
   Then save into localstorage
