@@ -8,6 +8,7 @@ import { TerraMachinaModule } from './terra-machina/terra-machina.module';
 import { CommonModule } from '@angular/common';
 import { LandingComponent } from './landing/landing.component';
 import { VigilantCityModule } from './vigilant-city/vigilant-city.module';
+import { ToolsModule } from './tools/tools.module';
 
 @NgModule({
   declarations: [AppComponent, LandingComponent],
@@ -17,7 +18,8 @@ import { VigilantCityModule } from './vigilant-city/vigilant-city.module';
     NgbModule,
     CommonModule,
     TerraMachinaModule,
-    VigilantCityModule
+    VigilantCityModule,
+    ToolsModule
   ],
   providers: [],
   bootstrap: [AppComponent],
