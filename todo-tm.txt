@@ -1,10 +1,10 @@
 Make advanced class sheets
+  Medic (Engineer, Protector) - UNFINISHED
   Samurai (Knight, Ninja)
   Astromancer (Protector) - Time, Space
   Druid (Protector, Sorcerex ) - Holy, Earth
   Frostbiter (Sorcerex) - Air, Water, Ice
   Destroyer (Sorcerex) - Dark, Fire, Lightning
-  Medic (Engineer, Protector)
   Monk (Warrior, Protector)
   Ninja (Monk, Scoundrel)
 
